@@ -19,6 +19,7 @@ export default function Home() {
       <main>
       <div>{topo()}</div>
       <h2>noticias aqui</h2>
+      <div>testando o git</div>
       <button>clique na noticia</button>
       <div>{rodapé()}</div>
      </main>
