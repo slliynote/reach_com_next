@@ -5,6 +5,8 @@
 
 
 import { Topo } from "@/components/Topo"
+import Card from "@/components/Card"
+
 
 
 export default function Home() {
@@ -16,6 +18,12 @@ export default function Home() {
       <div>testando o git</div>
       <button>clique na noticia</button>
       <div>{rodapé()}</div>
+      <div>
+        <Card produto={"Mouse"} valor={"R$49.90"}/>
+        <Card produto={"Mouse"} valor={"R$49.90"}/>
+        <Card produto={"Mouse"} valor={"R$49.90"}/>
+       
+      </div>
      </main>
   )
 };
