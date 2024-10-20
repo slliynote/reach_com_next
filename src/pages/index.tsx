@@ -19,9 +19,10 @@ export default function Home() {
       <button>clique na noticia</button>
       <div>{rodapé()}</div>
       <div>
-        <Card produto={"Mouse"} valor={"R$49.90"}/>
-        <Card produto={"Mouse"} valor={"R$49.90"}/>
-        <Card produto={"Mouse"} valor={"R$49.90"}/>
+        <Card produto={"Mouse"} valor={49.90} desconto={10}/>
+        <Card produto={"Teclado"} valor={69.90} desconto={20}/>
+        <Card produto={"Monitor"} valor={349.90} desconto={30}/>
+        <Card produto={"CPU"} valor={756.90} desconto={40}/>
        
       </div>
      </main>
